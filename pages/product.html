@@ -12,7 +12,9 @@
     <header>
         <div class="container">
             <div id="branding">
-                <h1>fire management</h1>
+                    <div id="logo">
+                            <img src="../imgs/logofin.jpg" width="150px" height="80px">
+                        </div>
 
             </div>
             <nav>
@@ -20,14 +22,18 @@
                     <li><a href="../index.html">Home </a></li>
                     <li><a href="about.html">About </a></li>
                     <li class="current"><a href="product.html">Product </a></li>
-                    <li><a href="resource.html">Resources Center</a></li>
+                    <li><a href="resource.html">Resources</a></li>
                     <li><a href="service.html">Services</a></li>
                     <li><a href="contact.html">Contact Us </a></li>
                 </ul>
             </nav>
         </div>
     </header>
+<div>
 
+    <h1>Our Products</h1>
+    <hr>
+</div>
     <section id="products">
         <div>
             <h1>Alarm</h1>
@@ -38,7 +44,7 @@
                 may be activated automatically from smoke detectors, and heat detectors or may also be activated via
                 manual fire alarm activation devices such as manual call points or pull stations.
             </p>
-
+            <div> <button id="myButton1" class="float-left submit-button" >Know more</button></div>
         </div>
         <div>
             <h1>Hydrant</h1>
@@ -48,6 +54,8 @@
                 A fire hydrant, also called a fireplug, fire pump, johnny pump, or simply pump, is a connection point by
                 which firefighters can tap into a water supply. It is a component of active fire protection.
             </p>
+            <div>
+            <button id="myButton2" class="float-left submit-button" >Know more</button>
         </div>
 
         <div>
@@ -61,6 +69,9 @@
                 special "master valve circuit" on the irrigation controller. (Sometimes this circuit is called a "pump
                 start circuit".
             </p>
+            <div>
+                    <button id="myButton3" class="float-left submit-button" >Know more</button>
+            </div>
         </div>
         <div>
             <h1>
@@ -75,14 +86,32 @@
                 hand-held cylindrical pressure vessel containing an agent which can be discharged to extinguish a fire.
                 Fire extinguishers manufactured with non-cylindrical pressure vessels also exist but are less common.
             </p>
+            
         </div>
+        <div>
+        <button id="myButton4" class="float-left submit-button" >Know more</button>
+</div>
+<script type="text/javascript">
+    document.getElementById("myButton1").onclick = function () {
+        location.href = "alarm.html";
+    };
+    document.getElementById("myButton2").onclick = function () {
+        location.href = "hydrant.html";
+    };
+    document.getElementById("myButton3").onclick = function () {
+        location.href = "sprinkler.html";
+    };
+    document.getElementById("myButton4").onclick = function () {
+        location.href = "fireextin.html";
+    };
+</script>
 
     </section>
 
 
     <footer>
-            <p>Posted by: A Team</p>
-            <p>Contact information: <a href="mailto:firehelpdesk@gmail.com">firehelpdesk@gmail.com</a>.
+            <p>Contact No:9850616532</p>
+            <p>Contact information: <a href="mailto:industrialtradingcorp2012@gmail.com">industrialtradingcorp2012@gmail.com</a>.
                 </p>
         </footer>
 

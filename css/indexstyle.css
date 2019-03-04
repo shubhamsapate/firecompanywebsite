@@ -14,8 +14,8 @@ body{
 }
 header{
     background:#1e2431;
-    padding-top: 30px;
-    min-height: 70px;
+    padding-top: 20px;
+    min-height: 50px;
     border-bottom: #e8491d 3px solid;
 
 }
@@ -29,11 +29,12 @@ header a{
 header ul{
     margin:0px;
     padding: 0px;
+    padding-top: 15px;
 }
 header li{
 
     display: inline;
-    padding: 0 20 0 20; 
+    padding: 0 15 0 15; 
     margin: 10px;
 
 }
@@ -41,9 +42,10 @@ header #branding{
     float: left;
 
 }
-header #branding h1{
+header #branding #logo{
     margin: 0;
-    color:white;
+    padding-left: 20px;
+
 }
 
 header nav{
@@ -102,7 +104,8 @@ article#main-col{
     border: #cccccc solid 1px;
 }
 @media(max-width:768px){
-    header #brand,header nav,header nav li,article#main-col,aside#sidebar,#showcase1,section#products,section#map,section#sidebar1,section#dark1{
+    header #brand,header nav,header nav li,article#main-col,aside#sidebar,#showcase1,
+    section#products,section#map,section#sidebar1,section#dark1,section#products,section#address{
         float: none;
         text-align: center;
         width: 100%;
@@ -152,19 +155,41 @@ article#main-col{
     
     }
     section#sidebar1{
-        margin: 10px;
-        width: 40%;
+        width: auto;
+        text-align: center;
+        margin-left: 50px;
     
     }
     section#map{
-        margin: 10px;
-        width:40%;
+    
+        text-align: center;
 
     }
     section#products{
 
-        text-align: left;
+    
         margin: 15px;
-        width: 60%;
+        width: 80%;
+        text-align: center;
+        align-content: center;
+    }
+    section#address{
 
+        width: auto;
+        text-align:center;
+        margin-left:5 rem;
+    }
+    section#address p{
+
+        font-size: 20px;
+    }
+
+    section#main{
+
+        background: #e6e6e6;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 20px;
+        border: #cccccc solid 1px;
+        width:80%;
     }
